@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.5 69.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-1 {
+        stroke: #4b566b;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #6698ff;
+      }
+    </style>
+  </defs>
+  <g id="icon_1" transform="translate(-812.25 -629.95)">
+    <g id="arrow" transform="translate(819.1 657.84)">
+      <path id="Path_7" data-name="Path 7" class="cls-1" d="M13.4,36.207l2.2-2.4-2.3-2.3" transform="translate(-7 -31.5)"/>
+      <path id="Path_8" data-name="Path 8" class="cls-1" d="M15.6,33.8a7.681,7.681,0,0,0-5.5,1.1A7.123,7.123,0,0,0,7,39.108" transform="translate(-7 -31.497)"/>
+    </g>
+    <g id="web" transform="translate(831.2 630.7)">
+      <path id="Path_9" data-name="Path 9" class="cls-1" d="M19.1,39.051V9.007A4.656,4.656,0,0,1,23.7,4.4H67.3a4.656,4.656,0,0,1,4.6,4.607V49.166a4.656,4.656,0,0,1-4.6,4.607H30" transform="translate(-19.1 -4.4)"/>
+      <line id="Line_1" data-name="Line 1" class="cls-1" x2="52.8" transform="translate(0 11.517)"/>
+      <g id="Group_30" data-name="Group 30" transform="translate(0 -0.1)">
+        <g id="Group_28" data-name="Group 28" transform="translate(0 -0.327)">
+          <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="16.1" height="10.015" transform="translate(29.8 18.327)"/>
+          <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="16.1" height="10.015" transform="translate(29.8 33.449)"/>
+        </g>
+        <g id="Group_29" data-name="Group 29" transform="translate(0 -0.327)">
+          <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-1" width="16.1" height="18.427" transform="translate(6.9 18.327)"/>
+          <line id="Line_2" data-name="Line 2" class="cls-1" x2="9.1" transform="translate(10.3 41.361)"/>
+        </g>
+      </g>
+      <ellipse id="Ellipse_3" data-name="Ellipse 3" class="cls-1" cx="1.1" cy="1.102" rx="1.1" ry="1.102" transform="translate(6.9 4.607)"/>
+      <ellipse id="Ellipse_4" data-name="Ellipse 4" class="cls-1" cx="1.1" cy="1.102" rx="1.1" ry="1.102" transform="translate(13.8 4.607)"/>
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="1.1" cy="1.102" rx="1.1" ry="1.102" transform="translate(20.7 4.607)"/>
+    </g>
+    <g id="color" transform="translate(812.1 626.4)">
+      <g id="image">
+        <path id="Path_4" data-name="Path 4" class="cls-2" d="M15.7,56.2l-1.1-2.8-3.9,7.2L8,58,4.8,64.5h7.1"/>
+        <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="2" cy="2" r="2" transform="translate(4.7 48.8)"/>
+        <path id="Path_5" data-name="Path 5" class="cls-3" d="M14.3,69.8H.9V42.3H15.2l6.6,6.5v5.5"/>
+        <path id="Path_6" data-name="Path 6" class="cls-2" d="M15.2,42.3v6.5h6.6"/>
+      </g>
+      <g id="ps">
+        <path id="Path_1" data-name="Path 1" class="cls-3" d="M30.9,64.5a7.8,7.8,0,1,1-7.8-7.8A7.507,7.507,0,0,1,30.9,64.5Z"/>
+        <path id="Path_2" data-name="Path 2" class="cls-2" d="M19,67.4V61.8h1.9c1.2,0,1.4.7,1.4,1.5a1.751,1.751,0,0,1-1.4,1.9H19"/>
+        <path id="Path_3" data-name="Path 3" class="cls-2" d="M24.7,66.4c0,.8.6,1.1,1.4,1.1s1.4-.3,1.4-1.1a1.575,1.575,0,0,0-1.4-1.5c-.2-.1-1.4-.3-1.4-1.5a1.453,1.453,0,0,1,1.4-1.5,1.5,1.5,0,0,1,1.4,1.4"/>
+      </g>
+    </g>
+  </g>
+</svg>
