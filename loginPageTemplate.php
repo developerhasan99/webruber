@@ -27,12 +27,13 @@
               />
             </div>
             <div class="col-sm-6">
-              <div class="text-center mb-4">
-                <a class="login_logo_link my-3" href="<?php echo esc_url( home_url( ) ); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/logo.png" width="35" height="35" alt="W">
-                <h4 class="d-inline align-middle mb-0">ebruber</h4>
-                </a>
-                <h1 class="loginpage_title">Welcome to Webruber!</h1>
+              <div class="text-center mb-4 mt-2">
+                <?php
+                if ( function_exists( 'the_custom_logo' ) ) {
+                  the_custom_logo();
+                }
+                ?>
+                <h1 class="loginpage_title mt-3">Welcome to Webruber!</h1>
               </div>
               <?php do_action( 'woocommerce_before_customer_login_form' ); ?>
               <form class="login" method="post">
@@ -73,7 +74,7 @@
                 <?php do_action( 'woocommerce_login_form' ); ?>
 
                 <p class="form-row">
-                  <label>
+                  <label class="d-block mb-3">
                     <input
                       class="woocommerce-form-checkbox"
                       name="rememberme"

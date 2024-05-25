@@ -6,9 +6,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&display=swap"
-        rel="stylesheet" />
     <?php wp_head(  ); ?>
 </head>
 
@@ -22,13 +19,13 @@
                             class="img-fluid d-sm-none" data-tilt data-tilt-scale="1.1" />
                     </div>
                     <div class="col-sm-6">
-                        <div class="text-center mb-3">
-                            <a class="login_logo_link my-3" href="<?php echo esc_url( home_url( ) ); ?>">
-                                <img src="<?php echo get_template_directory_uri(); ?>/logo.png" width="35" height="35"
-                                    alt="W">
-                                <h4 class="d-inline align-middle mb-0">ebruber</h4>
-                            </a>
-                            <h1 class="loginpage_title">Create your Webruber Account!</h1>
+                        <div class="text-center mb-3 mt-2">
+                            <?php
+                            if ( function_exists( 'the_custom_logo' ) ) {
+                            the_custom_logo();
+                            }
+                            ?>
+                            <h1 class="loginpage_title mt-3">Create your Webruber Account!</h1>
                         </div>
                         <?php do_action( 'woocommerce_before_customer_login_form' ); ?>
                         <form method="post" class="woocommerce-form woocommerce-form-register register" <?php

@@ -71,7 +71,7 @@
     <div class="row pt-5">
       <div class="col-md-3 col-sm-6 mb-5">
         <a href="">
-          <div class="service_card text-center" data-tilt data-tilt-scale="1.1">
+          <div class="service_card text-center">
             <img
               src="<?php echo get_template_directory_uri(); ?>/static/img/wordpress-installation-service.svg"
               alt="Installation"
@@ -86,7 +86,7 @@
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
         <a href="">
-          <div class="service_card text-center" data-tilt data-tilt-scale="1.1">
+          <div class="service_card text-center">
             <img
               src="<?php echo get_template_directory_uri(); ?>/static/img/wordpress-customization.svg"
               alt="Customization"
@@ -101,7 +101,7 @@
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
         <a href="">
-          <div class="service_card text-center" data-tilt data-tilt-scale="1.1">
+          <div class="service_card text-center">
             <img
               src="<?php echo get_template_directory_uri(); ?>/static/img/speed-optimization.svg"
               alt="Speed Optimization"
@@ -116,7 +116,7 @@
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
         <a href="">
-          <div class="service_card text-center" data-tilt data-tilt-scale="1.1">
+          <div class="service_card text-center">
             <img
               src="<?php echo get_template_directory_uri(); ?>/static/img/wordpress-seo.svg"
               alt="On-Page SEO"
@@ -133,7 +133,7 @@
     <div class="row">
       <div class="col-md-3 col-sm-6 mb-5">
         <a href="">
-          <div class="service_card text-center" data-tilt data-tilt-scale="1.1">
+          <div class="service_card text-center">
             <img
               src="<?php echo get_template_directory_uri(); ?>/static/img/landingpage-design.svg"
               alt="Landing Page"
@@ -148,7 +148,7 @@
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
         <a href="">
-          <div class="service_card text-center" data-tilt data-tilt-scale="1.1">
+          <div class="service_card text-center">
             <img
               src="<?php echo get_template_directory_uri(); ?>/static/img/psd-to-wordpress.svg"
               alt="PSD to WordPress"
@@ -163,7 +163,7 @@
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
         <a href="">
-          <div class="service_card text-center" data-tilt data-tilt-scale="1.1">
+          <div class="service_card text-center">
             <img
               src="<?php echo get_template_directory_uri(); ?>/static/img/html-to-wordpress.svg"
               alt="HTML to WordPress"
@@ -177,7 +177,7 @@
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
         <a href="">
-          <div class="service_card text-center" data-tilt data-tilt-scale="1.1">
+          <div class="service_card text-center">
             <img
               src="<?php echo get_template_directory_uri(); ?>/static/img/wordpress-maintainance.svg"
               alt="WordPress Maintainance"
@@ -288,7 +288,7 @@
       </p>
     </div>
     <div class="row pt-5 text-center">
-      <div class="col-md-6 mb-5">
+      <div class="col-md-4 mb-5">
         <img
           src="<?php echo get_template_directory_uri(); ?>/static/img/showcase-landingpage.jpg"
           alt="Landing Page Design"
@@ -298,7 +298,7 @@
         />
         <p class="mb-0 mt-2">Landing Page Design</p>
       </div>
-      <div class="col-md-6 mb-5">
+      <div class="col-md-4 mb-5">
         <img
           src="<?php echo get_template_directory_uri(); ?>/static/img/showcase-maintainance.png"
           alt="WordPress Maintainance"
@@ -308,7 +308,7 @@
         />
         <p class="mb-0 mt-2">WordPress Maintainance</p>
       </div>
-      <div class="col-md-6 mb-5">
+      <div class="col-md-4 mb-5">
         <img
           src="<?php echo get_template_directory_uri(); ?>/static/img/showcase-setup-cdn.jpeg"
           alt="CDN Setup"
@@ -318,7 +318,7 @@
         />
         <p class="mb-0 mt-2">CDN Setup</p>
       </div>
-      <div class="col-md-6 mb-5">
+      <div class="col-md-4 mb-5">
         <img
           src="<?php echo get_template_directory_uri(); ?>/static/img/showcase-speed-optimization.png"
           alt="WordPress Speed Optimization"

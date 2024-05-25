@@ -28,7 +28,7 @@ require_once( __DIR__ . '/includes/functions/ruber-grid-posts.php');
 require_once( __DIR__ . '/includes/functions/excerpt-length.php');
 
 //Remove unused hooks
-require_once( __DIR__ . '/includes/functions/remove-hooks.php');
+// require_once( __DIR__ . '/includes/functions/remove-hooks.php');
 
 //Woocommarce functions
 require_once( __DIR__ . '/includes/functions/woocommerce-functions.php');
